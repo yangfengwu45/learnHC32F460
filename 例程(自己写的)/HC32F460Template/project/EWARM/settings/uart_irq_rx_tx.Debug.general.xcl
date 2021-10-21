@@ -1,0 +1,13 @@
+"E:\IAR\arm\bin\armproc.dll" 
+
+"E:\IAR\arm\bin\armjlink2.dll" 
+
+"H:\ZLIOTA_BC260Y\1-基本控制篇\2-例程源码\1-硬件使用说明\HC32F460Template\project\EWARM\output\debug\Exe\uart_irq_rx_tx.out" 
+
+--plugin="E:\IAR\arm\bin\armbat.dll" 
+
+--flash_loader="H:\ZLIOTA_BC260Y\1-基本控制篇\2-例程源码\1-硬件使用说明\HC32F460Template\project\EWARM\flashloader\hc32f46x.board" 
+
+
+
+

@@ -1,0 +1,21 @@
+--cpu Cortex-M4.fp
+".\output\startup_hc32f46x.o"
+".\output\system_hc32f46x.o"
+".\output\main.o"
+".\output\usart.o"
+".\output\timer0.o"
+".\output\mcu_cfg.o"
+".\output\led.o"
+".\output\hc32f46x_icg.o"
+".\output\hc32f46x_utility.o"
+".\output\hc32f46x_clk.o"
+".\output\hc32f46x_efm.o"
+".\output\hc32f46x_gpio.o"
+".\output\hc32f46x_interrupts.o"
+".\output\hc32f46x_pwc.o"
+".\output\hc32f46x_usart.o"
+".\output\hc32f46x_timer0.o"
+--library_type=microlib --strict --scatter ".\output\HC32F460Template.sct"
+
+--keep=*Handler --summary_stderr --info summarysizes --map
+--list ".\listing\HC32F460Template.map" -o .\output\HC32F460Template.axf
