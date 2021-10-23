@@ -1,301 +1,0 @@
-Dependencies for Project 'HC32F460Template', Target 'HC32F460Template': (DO NOT MODIFY !)
-F (.\startup_hc32f46x.s)(0x60AF48B4)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1"-o .\output\startup_hc32f46x.o --depend .\output\startup_hc32f46x.d)
-F (..\..\mcu\common\system_hc32f46x.c)(0x60AFE23F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\system_hc32f46x.o --omf_browse .\output\system_hc32f46x.crf --depend .\output\system_hc32f46x.d)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-F (..\source\main.c)(0x6170F282)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
-I (..\..\mcu\common\hc32_ddl.h)(0x6170D162)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_gpio.h)(0x60B01352)
-I (..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_interrupts.h)(0x6170A6BE)
-I (..\..\driver\inc\hc32f46x_pwc.h)(0x60AF244B)
-I (..\..\driver\inc\hc32f46x_timer0.h)(0x60A65856)
-I (..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-I (..\source\mcu_cfg.h)(0x6170D29C)
-I (..\source\timer0.h)(0x6170D645)
-I (..\source\led.h)(0x6170D8E5)
-I (..\source\usart.h)(0x6170D3BE)
-F (..\source\usart.c)(0x6170DAD6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\usart.o --omf_browse .\output\usart.crf --depend .\output\usart.d)
-I (..\source\usart.h)(0x6170D3BE)
-I (..\..\mcu\common\hc32_ddl.h)(0x6170D162)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_gpio.h)(0x60B01352)
-I (..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_interrupts.h)(0x6170A6BE)
-I (..\..\driver\inc\hc32f46x_pwc.h)(0x60AF244B)
-I (..\..\driver\inc\hc32f46x_timer0.h)(0x60A65856)
-I (..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\source\timer0.c)(0x6170F280)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\timer0.o --omf_browse .\output\timer0.crf --depend .\output\timer0.d)
-I (..\source\timer0.h)(0x6170D645)
-I (..\..\mcu\common\hc32_ddl.h)(0x6170D162)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_gpio.h)(0x60B01352)
-I (..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_interrupts.h)(0x6170A6BE)
-I (..\..\driver\inc\hc32f46x_pwc.h)(0x60AF244B)
-I (..\..\driver\inc\hc32f46x_timer0.h)(0x60A65856)
-I (..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-I (..\source\led.h)(0x6170D8E5)
-F (..\source\mcu_cfg.c)(0x6170F095)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\mcu_cfg.o --omf_browse .\output\mcu_cfg.crf --depend .\output\mcu_cfg.d)
-I (..\source\mcu_cfg.h)(0x6170D29C)
-I (..\..\mcu\common\hc32_ddl.h)(0x6170D162)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_gpio.h)(0x60B01352)
-I (..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_interrupts.h)(0x6170A6BE)
-I (..\..\driver\inc\hc32f46x_pwc.h)(0x60AF244B)
-I (..\..\driver\inc\hc32f46x_timer0.h)(0x60A65856)
-I (..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\source\led.c)(0x6170EF76)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\led.o --omf_browse .\output\led.crf --depend .\output\led.d)
-I (..\source\led.h)(0x6170D8E5)
-I (..\..\mcu\common\hc32_ddl.h)(0x6170D162)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_gpio.h)(0x60B01352)
-I (..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_interrupts.h)(0x6170A6BE)
-I (..\..\driver\inc\hc32f46x_pwc.h)(0x60AF244B)
-I (..\..\driver\inc\hc32f46x_timer0.h)(0x60A65856)
-I (..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C7)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\..\driver\src\hc32f46x_icg.c)(0x5E58C5C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_icg.o --omf_browse .\output\hc32f46x_icg.crf --depend .\output\hc32f46x_icg.d)
-I (..\..\driver\inc\hc32f46x_icg.h)(0x5E58C5C7)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-F (..\..\driver\src\hc32f46x_utility.c)(0x5E58C5C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_utility.o --omf_browse .\output\hc32f46x_utility.crf --depend .\output\hc32f46x_utility.d)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-F (..\..\driver\src\hc32f46x_clk.c)(0x5E58C5C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_clk.o --omf_browse .\output\hc32f46x_clk.crf --depend .\output\hc32f46x_clk.d)
-I (..\..\driver\inc\hc32f46x_clk.h)(0x5E58C5C7)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\..\driver\src\hc32f46x_efm.c)(0x60AFB17A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_efm.o --omf_browse .\output\hc32f46x_efm.crf --depend .\output\hc32f46x_efm.d)
-I (..\..\driver\inc\hc32f46x_efm.h)(0x5E58C5C7)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\..\driver\src\hc32f46x_gpio.c)(0x5E58C5C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_gpio.o --omf_browse .\output\hc32f46x_gpio.crf --depend .\output\hc32f46x_gpio.d)
-I (..\..\driver\inc\hc32f46x_gpio.h)(0x60B01352)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\..\driver\src\hc32f46x_interrupts.c)(0x5E58C5C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_interrupts.o --omf_browse .\output\hc32f46x_interrupts.crf --depend .\output\hc32f46x_interrupts.d)
-I (..\..\driver\inc\hc32f46x_interrupts.h)(0x6170A6BE)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\..\driver\src\hc32f46x_pwc.c)(0x5E58C5C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_pwc.o --omf_browse .\output\hc32f46x_pwc.crf --depend .\output\hc32f46x_pwc.d)
-I (..\..\driver\inc\hc32f46x_pwc.h)(0x60AF244B)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\..\driver\src\hc32f46x_usart.c)(0x5E58C5C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_usart.o --omf_browse .\output\hc32f46x_usart.crf --depend .\output\hc32f46x_usart.d)
-I (..\..\driver\inc\hc32f46x_usart.h)(0x5E58C5C7)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
-F (..\..\driver\src\hc32f46x_timer0.c)(0x60A65879)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\..\mcu\common -I..\source -I..\..\driver\inc --diag_suppress=186,66-I H:\LearnHC32\learnHC32F460\例程(自己写的)\7-定时器Timer0\HC32F460Template\project\MDK\RTE-I E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-I E:\MDK5\ARM\PACK\HDSC\HC32F46x\1.0.2-D__UVISION_VERSION="514" -D_RTE_ -DHC32F46x -DUSE_DEVICE_DRIVER_LIB-o .\output\hc32f46x_timer0.o --omf_browse .\output\hc32f46x_timer0.crf --depend .\output\hc32f46x_timer0.d)
-I (..\..\driver\inc\hc32f46x_timer0.h)(0x60A65856)
-I (..\..\mcu\common\hc32_common.h)(0x60B49F5C)
-I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5CD97DE9)
-I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x61363224)
-I (E:\MDK5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\mcu\common\hc32f46x.h)(0x6170A330)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (E:\MDK5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (..\..\mcu\common\system_hc32f46x.h)(0x5E58C5C7)
-I (..\source\ddl_config.h)(0x60A658C5)
-I (..\..\driver\inc\hc32f46x_utility.h)(0x60AFEABE)
